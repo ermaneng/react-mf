@@ -2,7 +2,13 @@ import React from "react";
 import ReactDOM from "react-dom";
 
 import "./index.css";
+import "./MyWidget";
+import MyWidget from "./MyWidget";
 
-const App = () => <div>Hi there, I'm React from Webpack 5.</div>;
+
+const App = () => (
+    
+    <MyWidget />
+)
 
 ReactDOM.render(<App />, document.getElementById("app"));
